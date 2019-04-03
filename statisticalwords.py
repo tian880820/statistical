@@ -6,7 +6,7 @@ import xlrd
 
 #需要处理的文件名
 file = 'D:\\test\\工作簿40.xlsx'
-
+#添加测试信息
 #打开excel数据表
 workbook = xlrd.open_workbook(filename=file)
 #读取电子表到列表
